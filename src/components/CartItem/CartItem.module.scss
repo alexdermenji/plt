@@ -1,0 +1,33 @@
+.cartItem {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #282c34;
+}
+.cartItemActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartItemQuantity {
+  width: 30px;
+}
+
+.cartItemInfo {
+  width: 45%;
+}
+
+.button {
+  background-color: #282c34;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cartImg {
+  width: 100px;
+}
